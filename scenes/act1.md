@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n:  و این اضطراب انسانه
 
-n: _YOU_ ARE THE ANXIETY
+n: تو_ اضطراب هستی_
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: اوه سلام! دوباره برگشتیم اینجا؟
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: وظیفه تو حفاظت از انسانت دربرابر *خطر* هستش
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: درواقع، دوباره بازی کردن این بازی همین الان اون رو در معرض *خطر* قرار میده
 
-n: QUICK, WARN THEM!
+n: سریع، بهش هشدار بده!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: انسان! گوش بده، ما درخطریم! این بازیکن...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[قراره دوباره آزارمون بده...](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[قرار نیست یه پایان متفاوت پیدا کنه...](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[دچار ناهماهنگی روایی میشه...](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -84,7 +84,7 @@ b: THEY'LL MAKE US JUMP OFF THE ROOF.
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: تمام این بلا ها سرمون میاد، و بعد ما--
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: البته، *کلیت* داستان همونه، اما هر قسمت دوتا پایان ممکن داره، بعلاوه شاخه های مختلف هر دیالوگ--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: بازیکن ناامید میشه، ای صفحه رو می‌بنده، نرم افزارمون ور پاک میکنه، بعد ما--
 
 (#act1_replay_end)
 
@@ -112,27 +112,26 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: ناهماهنگی چی؟
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: قوس داستانی درباره این بود که چطور میتونیم *انتخاب* کنیم که رابطه سالمی با ترسمون داسته باشیم
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
-
+b: اما دوباره بازی کردن همون داستان رو بهمون میده، انگار *انتخاب‌ها* مهم نبودن،
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: بنابراین تضاد بین پیام و ساز‌وکار این بازی رو نشون می‌ده،
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b:  از این رو تار و پوداین جهان داستانی رو از هم باز می‌کنه،
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: و بعد ما--
 
 (#act1_replay_end)
 
@@ -141,7 +140,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: می‌میرییییییم
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,7 +163,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: اوکی حالا بیا برگردیم به داستان.
 
 ```
 Game.clearText();
@@ -186,17 +185,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: اوه چه خوب، گرگم برگشته. خیلی هم عالییی.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: وظیفه تو حفاظت از انسانت دربرابر *خطر* هستش
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: درواقع، اون ساندویچ داره همین الان در معرض *خطر* قرارش میده
 
-n: QUICK, WARN THEM!
+n: سریع، بهش هشدار بده!
 
 ```
 sfx("squeak");
@@ -204,21 +203,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: انسان! گوش بده، ما در خطریم! خطر اینه که...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (بذار اضطراب _خودت_ وارد عمل بشه! گزینه ای رو انتخاب کن که به ترس _خودت_ نزدیکتره)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[ما داریم تنهایی نهار می‌خوریم! دوباره!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[ما موقع غذا خوردن مفید نیستیم!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[اون نون سفید برامون بده!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
