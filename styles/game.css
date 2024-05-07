@@ -23,7 +23,7 @@ body {
 	margin:0;
 	background: #111;
 	font-size: 20px;
-	font-family: Vazirmatn;
+	font-family: "Vazirmatn";
 	font-weight: 500;
 	line-height: 1.3em;
 }
@@ -1008,7 +1008,7 @@ CORNER TEXT
 .corner-text{
 	width: 220px;
     color: #555;
-    font-family: Vazirmatn;
+    font-family: "Vazirmatn";
     font-weight: 500;
     font-size: 14px;
     line-height: 1.3em;
