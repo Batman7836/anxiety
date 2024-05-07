@@ -1365,11 +1365,11 @@ b: همه‌چی درست میشه
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: As your loyal guard-wolf, I'll always keep an eye out for danger, and do my best to keep you safe.
+b: بعنوان گرگ نگهبان وفادار تو، من همیشه از تو دربرابر خطر محافظت میکنم و تمام تلاشمو میکنم تا تو رو دور از خطر نگه دارم.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
-b: I promise.
+b: قول میدم.
 
 (...600)
 
@@ -1378,29 +1378,29 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: Last app. Instagram. What you got?
+h: آخرین برنامه، اینستاگرام، ببینیم اینجا چخبره؟
 
 `hong({eyes:"sad"});`
 
-h: It's... more party pictures.
+h: بازم... عکس های پارتیه.
 
 `hong({mouth:"sad"});`
 
-h: Everyone looks so happy. Free from worry. Free from anxiety.
+h: همه خیلی خوشحال بنظر میان. بدون دغدغه. بدون اضطراب.
 
 `hong({mouth:"anger"});`
 
-h: God, why can't I be like them? Why can't I just be *normal?*
+h: ای خدا، چرا من نمیتونم این اونا باشم؟ چرا من نمیتونم *عادی* باشم؟
 
 `bb({eyes:"normal_right"});`
 
-b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
+b: صحبت از پارتی شد، این نظر قطعی من درباره دعوت پارتی آخرهفتس:
 
 `bb({eyes:"normal"});`
 
-[We should go.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
+[ما باید بریم.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[We should not go.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[ما نباید بریم.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1416,39 +1416,39 @@ b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
 
 # act1h
 
-b: We sh--
+b: ما--
 
 ```
 bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
 
-h: *^FUCK^.*
+h: *^لعنت^.*
 
 `hong({body:"2_you"});`
 
-h: YOU.
+h: بهت.
 
 (...500)
 
-b: w
+b: چ
 
 (...1500)
 
 `bb({eyes:"wat_2"});`
 
-b: wha?
+b: چی؟
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: I'm going to say YES to that party,
+h: من قراره دعوت به اون پارتی رو قبول کنم.
 
 {{if _.act1g=="go"}}
-h: NOT because you want me to, but because *I* want to.
+h: ولی نه چون تو میخوای که من قبول کنم بلکه چون *خودم* میخوام.
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Precisely BECAUSE you don't want me to.
+h: دقیقا چون تو نمیخوای که من قبول کنم.
 {{/if}}
 
 ```
@@ -1456,14 +1456,14 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: You're NOT in control of me.
+h: اختیار من دست تو نیست!
 
 ```
 sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Now excuse me while I eat this delicious sandwich in ^goddamn^ peace.
+h: حالا ولم کن که میخوام این ساندویچ خوش مزه رو در آرامش ^لعنتی^ بخورم
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1501,11 +1501,11 @@ b: ..................
 
 `bb({mouth:"normal"});`
 
-[AHHHH WE'RE GONNA DIE](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
+[وااااای قراره بمیریم](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH EVERYONE HATES US](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
+[وااااای همه ازمون بدشون میاد](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH WE'RE HORRIBLE PEOPLE](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[وااااای ما آدم آشغالی هستیم](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1514,7 +1514,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE GONNA DIE AAAAAAHHHHHHH
+b: واااای قراره بمیریم آاااای
 
 ```
 hong({body:"3_defeated1"});
@@ -1532,7 +1532,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH EVERYONE HATES US AAAAAAHHHHHHH
+b: واااای همه ازمون بدشون میاد آاااای
 
 ```
 hong({body:"3_defeated1"});
@@ -1550,7 +1550,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE HORRIBLE PEOPLE AAAAAAHHHHHHH
+b: واااای ما آدم آشغالی هستیم آاااای
 
 ```
 hong({body:"3_defeated1"});
@@ -1568,39 +1568,39 @@ bb({mouth:"smile_lock", eyes:"smile", body:"normal"});
 music('battle', {volume:0.5});
 ```
 
-n: CONGRATULATIONS
+n: تبریک!
 
 (...500)
 
-n: YOU'VE SUCCESSFULLY PROTECTED YOUR HUMAN'S PHYSICAL + SOCIAL + MORAL NEEDS
+n: تو موفق شدی سلامت جسمانی، اجتماعی و روحی-روانی انسانت رو حفظ کنی.
 
-n: WHY, LOOK HOW GRATEFUL THEY ARE!
+n: آخه نگاه کن چقدر قدردانه!
 
 (...500)
 
-n: NOW THAT THEIR ENERGY IS ZERO, YOU CAN DIRECTLY CONTROL THEIR ACTIONS
+n: حالا که انرژیش به صفر رسیده، تو میتونی مستقیما اعمالش رو کنترل کنی
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: PICK YOUR ENDING MOVE
+n: حرکت پایانیت رو انتخاب کن
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *FINISH THEM*
+n: *کارو تموم کن*
 
-[{FIGHT: Punish your stressful phone!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{ستیز:اون گوشی استرس‌آورت رو مجازات کن}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Curl up in a ball and cry!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{گریز: خودتو عین توپ جمع کن و زار بزن}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Your phone was giving you a panic attack!
+b: گوشیت داشت باعث حمله پانیک(وحشت زدگی) میشد!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg and Co are hijacking your mental health for venture capitalist money!
+b: زاکربرگ و کمپانیش دارن از سلامت روانی تو سوءاستفاده میکنن که یه پولی به جیب بزنن
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1608,7 +1608,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Punish your phone! Destroy it! Kill it!
+b: گوشیت رو تنبیه کن! نابودش کن! بکشش!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1617,7 +1617,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL I--
+b: نابودش کن! نابودش کن!نابودش کن!نابودش کن!نابودش کن!نابودش کن!نابودش کن!نابودش کن!نابودش کن!نابودش کن!نابودش کن!نابودش کن!
 
 (#act1j)
 
@@ -1625,7 +1625,7 @@ b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL 
 
 `bb({eyes:"fear", mouth:"normal"})`
 
-b: The whole world is filled with danger!
+b: کل دنیا پر از خطره!
 
 ```
 bb({body:"fear"});
@@ -1633,7 +1633,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do like the armadillo! Curl up into a ball for self-defense!
+b: مثل آرمادیلو باش! برای دفاع شخصی خودتو مثل یه توپ کن!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1642,7 +1642,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CR-- 
+b: زار بزن! زار بزن! زار بزن! زار بزن! زار بزن! 
 
 (#act1j)
 
