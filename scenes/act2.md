@@ -23,14 +23,14 @@
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" about that horrible thing happening somewhere?
+s: ولی اون "گزارش خبری" رو *دیدی* که درباره یه حادثه خیلی بد بود که یجایی اتفاق افتاده بود؟
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: س-سلام...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -38,14 +38,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: God I hate the news. It's all sensationalism and clickbait.
+a: وای خدا من از اخبار متنفرم. همش دنبال جوسازی و تله کلیک‌ هستن.
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: پ...پارتی باحالیه
 
 ```
 publish("act2",["party_hong","next"]);
@@ -53,13 +53,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: True, but they're just following incentives. The *real* problem is people who click the clickbait.
+s: درسته، ولی اون دیگه کار همیشگی‌ شونه. مشکل *اصلی* اونایین که گول اون تله های کلیک رو میخورن.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Who would retweet a terrible news story, and make all their friends feel bad?
+s: آخه کی یه داستان ناراحت ‌کننده رو ریتوییت میکنه و حال تمام دوستاش رو خراب میکنه؟
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: آخ، آره دقیقا.
 
 (#act2-preamble-end)
 
@@ -78,14 +78,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" going viral?
+s: ولی *دیدی* چطور اون "گزارش خبری" معروف شد؟
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: س-سلام...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -93,14 +93,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Yeah, totally fake. Who would fall for that and retweet it?
+a: آره، کاملا معلوم بود الکیه، آخه کی گول اونو میخوره و ریتوییتش می‌کنه؟
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: پ...پارتی باحالیه
 
 ```
 publish("act2",["party_hong","next"]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Seriously dude. Like, hello, open up Google and factcheck first?
+s: جدیا، آخه دو دقیقه برو تو گوگل ببین واقعی یا نه؟
 
 ```
 publish("act2",["party_hunter",1]);
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: آخ، آره دقیقا.
 
 (#act2-preamble-end)
 
@@ -127,14 +127,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: Like I was saying, the Meme Industrial Complex exploits cats.
+s: همونطور که داشتم میگفتم، صنعت میم‌سازی داره از گربه ها سوءاستفاده می‌کنه.
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: س-سلام...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,14 +142,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elaborate on this thesis.
+a: میشه بیشتر درباره این موضوع توضیح بدی؟
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: پ...پارتی باحالیه
 
 ```
 publish("act2",["party_hong","next"]);
@@ -157,13 +157,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Well, I saw someone retweet a GIF of a cat drinking milk yesterday.
+s: خب، من دیروز دیدم یکی یه گیف از یه گربه درحال شیر خوردن رو ریتوییت کرد.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: They can't digest that ^crap^! Who would retweet *animal abuse* like that?
+s: اونا نمیتونن اون ^آشغال^ رو هضم کنن! آخه کی درباره *آزار حیوانات* ریتوییت می‌کنه؟
 
 ```
 publish("act2",["party_hunter",1]);
@@ -171,7 +171,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: آخ، آره دقیقا
 
 (#act2-preamble-end)
 
@@ -182,14 +182,14 @@ a: Ugh, I know right?
 publish("act2",["dee",1]);
 ```
 
-s: So yeah they never replied back!
+s: آره اصلا جواب پیامم رو نداد!
 
 ```
 publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: س-سلام...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -197,14 +197,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Even though you both matched each other on Tinder?
+a: با اینکه تیندر جفتتون رو به هم پیشنهاد داد؟
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: پ...پارتی باحالیه
 
 ```
 publish("act2",["party_hong","next"]);
@@ -229,7 +229,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! What, did they think I was a *serial killer* or something? So paranoid.
+s: آره بابا! یعنی چی، فک کرده من *قاتل سریالی* چیزی بودم؟ چه آدم بدبینی.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -237,7 +237,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: آخ، آره دقیقا.
 
 (#act2-preamble-end)
 
@@ -249,9 +249,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! Maybe they think hookups can't fill the hole in their heart?
+s: آره بابا! شاید فکر کرده با هرزگی نمیتونه سوراخ تو قلبش رو پر کنه؟
 
-s: Stop being such a prude! Open your mind, then open your legs!
+s: انقد یبس نباش! ذهنت رو بازکن، بعدم لا پات رو بازکن!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -259,7 +259,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: آخ، آره دقیقا.
 
 (#act2-preamble-end)
 
@@ -271,7 +271,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! They weren't that hot, but they would have been a nice catch!
+s: آره بابا! حالا اونقدا هم خوشگل نبود، ولی خوب ^کصی^ بود
 
 ```
 publish("act2",["party_hunter",1]);
@@ -279,7 +279,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Gotta Catch 'Em All!™
+a: تو هم که همش دنبال ^کصی^!
 
 (#act2-preamble-end)
 
@@ -300,13 +300,13 @@ publish("hp_show");
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-n: ROUND TWO: *FIGHT!*
+n: راند دو: *بجنگید*
 
-[Oh no they all hate us!](#act2a_social)
+[وای نه! همشون از ما بدشون میاد!](#act2a_social)
 
-[Were you *ogling* the redhead?](#act2a_perv)
+[داشتی واسه مو قرمزیه *عشوه* میومدی؟](#act2a_perv)
 
-[Hey, let's talk about the meaning of life.](#act2a_meaning)
+[هی، بیا درباره معنی زندگی صحبت کنیم.](#act2a_meaning)
 
 # act2a_social
 
