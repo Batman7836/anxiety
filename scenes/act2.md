@@ -312,15 +312,15 @@ n: راند دو: *بجنگید*
 
 `bb({eyes:"sad"})`
 
-b: We're bringing down the mood of this party by being such a sad lump!
+b: ما داریم با ناراحتی خودمون گند می‌زنیم به حس و حال این پارتی!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: We're killing the good vibes! We're committing first-degree vibe-murder!
+b: ما خیلی ضد حالیم! داریم هرچی حس و حال خوبه رو از بین می‌بریم!
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Human, we have to leave *now* before--
+b: انسان، ما باید *همین الان* بریم قبل از اینکه--
 
 ```
 _.a2_first_danger = 'social';
@@ -333,15 +333,15 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: They're more attractive than us, which means if we even *look* at them, then--
+b: اونا از ما جذاب‌ترن که یعنی حتی اگه ما بهشون *نگاه* هم بکنیم، اونموقع--
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: WE'RE CREEPS
+b: ما چندشیم!
 
 `bb({body:"normal"})`
 
-b: We're creepy, evil, bad bad bad terrible terrible perv--
+b: ما چندش، شوم و در‌کل آدم خیلی خیلی منحرف و بدی هستیم--
 
 ```
 _.a2_first_danger = 'perv';
@@ -354,31 +354,31 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: At the end of it all, what can we possibly do that really matters? 
+b: نهایتا، ما چیکار میتونیم بکنیم که اهمیت داشته باشه؟ 
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Contribute to humanity? All great works decay the way of Ozymandias. Love? Death will always do it part.
+b: کمک به انسانیت؟ بلاخره تمام شاهکار ها مثل داستان اوزیماندیاس از یاد میرن. عاشق شدن؟ در نهایت مرگ باعث جدایی میشه.
 
 `bb({eyes:"sad_r"})`
 
-b: And how much death there is! *We* will die. *Our loved ones* will die.
+b: و چقد هم مرگ و میر زیاد شده! *ما* خواهیم مرد. *عزیزان* ما خواهند مرد.
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Heck, the Second Law of Thermodynamics means even our *universe* will die!
+b: هعی، قانون دوم ترمودینامیک بهمون میگه حتی این *دنیا* هم یه روز می‌میره!
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "death makes us appreciate life"? That's like saying slavery is good because it makes us appreciate freedom!
+b: اوه، "مرگ باعث میشه ما قدر زندگی رو بدونیم"؟ عین این میمونه که بگیم برده داری خوبه چون باعث میشه قدر آزادی رو بدونیم!
 
 `bb({body:"one_up"})`
 
-b: Oh, "you need to make your own meaning"? That's what cultists and conspiracy theorists do!
+b: اوه، " تو باید خودت بهش معنی بدی"؟ اون کاریه که اعضای فرقه و نظریه پردازها میکنن!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Life has no meaning, death has no meaning, even *meaning* has no meaning! What is a mortal soul supposed to--
+b: زندگی معنی‌ نداره، مرگ معنی‌ نداره، حتی *معنی* هم معنی نداره! آخه یه روح فانی باید چیکار--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -395,7 +395,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... can you hear me, human?
+b: ام... انسان، صدامو میشنوی؟
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -403,23 +403,23 @@ b: ...
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *GASP*
+b: *نفس عمیق*
 
 `bb({mouth:"small_talk"})`
 
-b: I MUST WARN YOU ABOUT...
+b: من باید بهت هشدار بدم درباره...
 
-[*More* of the same danger!](#act2b_louder)
+[*بازم* همون خطر!](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2b_different_social)
+[یه خطر اجتماعی *دیگه*!](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2b_different_moral)
+[یه خطر روانی *دیگه*!](#act2b_different_moral)
 {{/if}}
 
-[You're ignoring danger! That's dangerous!](#act2b_ignore)
+[تو داری خطر رو نادیده میگیری! همین خطرناکه!](#act2b_ignore)
 
 # act2b_louder
 
@@ -441,13 +441,13 @@ b: I MUST WARN YOU ABOUT...
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: EMOTIONS ARE CONTAGIOUS! SO IF YOU DON'T LEAVE YOU'LL INFECT EVERYONE WITH YOUR MENTAL ILLNESS! 
+b: احساسات واگیردارن! پس اگه همین الان از اینجا نری همه رو به مریضی روانیت مبتلا میکنی!
 
-b: You'll create a deadly outbreak of SAD LUMP SYNDROME
+b: تو باعث شیوع بیماری کشنده سندرم ^گه^ افسرده میشی!
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: We need to get out of here and quarantine ourselves forever in a small room with Netflix and food delivery!
+b: ما باید از اینجا بزنیم بیرون و خودمون رو تو یه اتاق با فیلیمو و تحویل غذا قرنطینه کنیم!
 
 ```
 _.a2_second_danger = 'netflix';
@@ -461,7 +461,7 @@ _.a2_hoodie_callback = "a quarantine";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: DON'T BE A CREEP. IT'S AGAINST THE LAW!
+b: انقد چندش نباش! این خلاف قانونه!
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -486,11 +486,11 @@ sfx("gravel");
 
 (...501)
 
-b: Creep Law, Section 74.5: (1) Any Person who checks out (a) those muscular shoulders (b) that bubble booty (2) shall be hereby known as
+b: قانون چندشا، بخش 74.5: (1) هرکس که به (الف) اون شونه های عضله ای (ب) اون کون گوشتی نگاه کنه(2) از الان به بعد به این عنوان شناخته خواهد شد:
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "A BIG DISGUSTING TRASH PERVERT"
+b: "یه منحرف آشغالی حال به هم‌زن"
 
 ```
 _.a2_second_danger = 'law';
@@ -504,7 +504,7 @@ _.a2_hoodie_callback = "the law";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Actually, even if you find a noble purpose in life, you can *still* mess everything up!
+b: درواقع، حتی اگه یه هدف خاص تو زندگیت پیدا کنی، *هنوزم* میتونی به همه‌چی گند بزنی!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
