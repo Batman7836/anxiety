@@ -490,7 +490,7 @@ b: قانون چندشا، بخش 74.5: (1) هرکس که به (الف) اون �
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "یه منحرف آشغالی حال به هم‌زن"
+b: "یه منحرف آشغال حال به هم‌زن"
 
 ```
 _.a2_second_danger = 'law';
@@ -508,19 +508,19 @@ b: درواقع، حتی اگه یه هدف خاص تو زندگیت پیدا ک
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel wanted world peace and for cultures to understand each other. So he decided to make travel easier.
+b: آلفرد نوبل خواستار صلح جهانی بود و می‌خواست فرهنگ ها همدیگه رو درک کنن. واسه همین تصمیم گرفت رفت و آمد رو راحت‌تر کنه.
 
 `bb({eyes:"normal_r"})`
 
-b: So he needed a way to cheaply create train tunnels. So he invented a new material called "dynamite"...
+b: پس نیاز به یه راه ارزون قیمت داشت که تونل برای قطارها بسازه، بنابراین یه ماده جدید بنام "دینامیت" رو اختراع کرد...
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: which was used in World War I to KILL MILLIONS OF PEOPLE
+b: که عامل مرگ میلیون ها نفر توی جنگ جهانی اول بود!
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: IT'S THE BUTTERFLY EFFECT, HUMAN! HOW MANY PEOPLE ARE YOU ACCIDENTALLY KILLING RIGHT NOW
+b: بهش میگن اثر پروانه‌ای، انسان! میدونی الان چند نفر دارن بخاطر تو می‌میرن!
 
 ```
 _.a2_second_danger = 'butterfly';
@@ -536,19 +536,19 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: Actually, you know what's worse than no-one liking you? *Everyone* liking you.
+b: راستی، میدونی چی بدتر از اینکه هیچ‌کس دوست نداشته باشه؟ اینکه *همه* دوست داشته باشن.
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: That is, becoming one of *these* pleasure-chasing party animals.
+b: به عبارتی، تبدیل شدن به یکی از *این* آدمایی که فقط دنبال پارتی گرفتن و خوش‌ گذرونی هستن.
 
 `bb({body:"normal", mouth:"small"})`
 
-b: A shallow life with shallow friends who only know the shallow you!
+b: یه زندگی پوچ با دوستای بیهوده که فقط تو احمق رو میشناسن!
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Human, we need to run away from these pleasure-zombies before they turn us into one of them!
+b: ای انسان، ما باید قبل از اینکه این زامبی های خوش گذرون مارو به یکی از خودشون تبدیل کنن فرار کنیم!
 
 ```
 _.a2_second_danger = 'zombies';
@@ -564,19 +564,19 @@ _.a2_hoodie_callback = "zombies";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: People are dying in famines and genocides *right now* and we're just partying!
+b: مردم دارن *همین الان* از قحطی و قتل عام می‌میرن و ما اومدیم پارتی!
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: A wise person once said, "the only thing necessary for the triumph of evil is for good folks to do nothing."
+b: یه شخص دانایی گفته: "تنها چیزی که برای پیروزی بدی و پلیدی نیاز هست این است که مردمان خوب کاری نکنند"
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: WE'RE DOING NOTHING.
+b: ما داریم کاری نمی‌کنیم!
 
 `bb({mouth:"small"})`
 
-b: BY PARTYING, WE'RE HELPING *HITLER*.
+b: با اومدن به پارتی ما داریم به *هیتلر* کمک می‌کنیم.
 
 ```
 _.a2_second_danger = 'hitler';
@@ -592,15 +592,15 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: You think you're safe just because you took the batteries out of the carbon monoxide detector?
+b: تو فک می‌کنی الان امنی چون باتری های ردیاب کربن مونواکسید رو درآوردی؟
 
 `bb({eyes:"suspect_r"})`
 
-b: You won't even smell the poison! You'll just get sleepy and then you'll--
+b: تو حتی نمی‌تونی اون سم رو بو کنی! فقط سرت سنگین میشه و تو---
 
 `bb({body:"scream_c_1"})`
 
-b: DIEEEEEEEEEEEEEEEEEE
+b: می‌میریییییی!
 
 ```
 _.a2_second_danger = 'ignore';
@@ -621,29 +621,29 @@ b: ...
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Oh thank goodness human, I think you can hear me again!
+b: اوه خدا رو شکر انسان، فک کنم دوباره صدای منو میشنوی!
 
 `bb({eyes:"closed", body:"point"})`
 
-b: I SHALL WARN YOU ABOUT...
+b: باید بهت هشدار بدم درباره...
 
 {{if _.a2_first_choice=="louder"}}
-[*Even more* of the same danger!](#act2c_louder)
+[*بازم* همون خطر ولی بیشتر از قبل!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
-[*More* of the same danger!](#act2c_louder)
+[*بازم* همون خطر!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2c_different_social)
+[یه خطر اجتماعی *دیگه*!](#act2c_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2c_different_moral)
+[یه خطر روانی *دیگه*!](#act2c_different_moral)
 {{/if}}
 
-[Did you check that punch before drinking?](#act2c_punch)
+[چک کردی ببینی تو اون لیوان چی هست قبل از خوردن ازش؟](#act2c_punch)
 
 #act2c_louder
 
@@ -675,15 +675,15 @@ b: I SHALL WARN YOU ABOUT...
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: Actually, Netflix & food delivery isn't quarantined enough! We'd still infect the delivery person!
+b: می‌دونی چیه، فیلیمو و تحویل غذا به اندازه کافی قرنطینه نیستن! هنوزم می‌تونیم پیک رستوران رو مبتلا کنیم!
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: We need to move to the Canadian Yukon territories, and have our food delivered by drone!
+b: باید به منطقه یوکان کانادا مهاجرت کنیم و غذامون رو با پهباد تحویل بگیریم!
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: And then they'd have to sterilize the drone to rid it of our SAD LUMP GERMS
+b: بعد اونا مجبور میشن پهباد رو ضدعفونی کنن که از شر جرم های افسردگی ما خلاص بشم!
 
 `_.a2_attack_3 = "alone";`
 
@@ -716,13 +716,13 @@ sfx("gravel");
 
 (...501)
 
-b: The BIG DISGUSTING TRASH PERVERT shall be sentenced to 72 hours in one of those medieval public-humiliation devices
+b: این منحرف آشغال حال به هم‌زن محکوم میشه به 72 ساعت شکنجه توی یکی از اون دستگاه های تحقیر عمومی که از قرون وسطاباقی مونده
 
-b: unless they're secretly *into* that sort of thing
+b: وگر اینکه اونا مخفیانه از اونجور چیزا خوششون بیاد.
 
 `bb({body:"scream_a_1"})`
 
-b: because they're a BIG DISGUSTING TRASH PERVERT
+b: چون اونا هم یه مشت منحرف آشغال حال به هم‌زن هستن!
 
 `_.a2_attack_3 = "bad";`
 
@@ -734,19 +734,19 @@ b: because they're a BIG DISGUSTING TRASH PERVERT
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: BUTTERFLY EFFECT! You're using a non-biodegradable plastic cup?
+b: اثر پروانه ای! تو داری از یه لیوان غیرقابل تجزیه استفاده می‌کنی؟
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BAM, A LANDFILL LEAKS POISON AND KILLS A KID
+b: بوم، یه آشغال‌دونی سم آزاد میکنه و یه بچه رو میکشه!
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: You're sweating and your heart's pounding?
+b: داری عرق می‌کنی و ضربان قلبت رفته بالا؟
 
 `bb({body:"scream_a_1"})`
 
-b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
+b: بوم، تو باعث شدی سیستم سلامت و بهداشتمون ورشکست بشه و میلیون ها بمیرن!
 
 `_.a2_attack_3 = "bad";`
 
@@ -758,15 +758,15 @@ b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: These pleasure-zombies will stumble towards you mumbling,
+b: این زامبی های خوش گذرون تلو تلو می‌خورن میان سمتت و تو گوشت من من می‌کنن:
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: LIIIIIKES. LIIIIIIIIIIKES.
+b: ازت خوشمون میااااد.
 
 `bb({body:"scream_a_1"})`
 
-b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
+b: بعدم گازت می‌گیرن و تبدیلت می‌کنن به یه داداش بی مغز یا یه ^جنده^ بی‌فکر!
 
 `_.a2_attack_3 = "bad";`
 
@@ -778,15 +778,15 @@ b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS TH
 
 `bb({body:"scream_a_1"})`
 
-b: THE NAZIS ARE GOOSE-STEPPING BACK ON THE STREETS RIGHT NOW
+b: نازی ها دارن الان تو خیابونا رژه میرن!
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Saying, *good thing those 'good folks' slacked off with stuff like 'relaxing' and 'self-care'!*
+b: دارن میگن، *خوب شد اون آدمای خوب دیگه وقتشون رو با کارایی مثل استراحت و مراقبت از خود تلف نمی‌کنن*
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *Now our plans can go fourth, reich on schedule!*
+b: *حالا نقشه هامون میتونن عملی بشن، رایش چهارم رو می‌سازیم!*
 
 `_.a2_attack_3 = "bad";`
 
@@ -798,15 +798,15 @@ b: *Now our plans can go fourth, reich on schedule!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: Come to think about it, do we know if this building *has* a monoxide detector?!
+b: حالا که بهش فکر می‌کنم، اصلا مطمئنی این ساختمون ردیاب کربن مونواکسید *داره*؟
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
-b: What if we're all being poisoned *RIGHT NOW?*
+b: اگه همه *همین الان* داریم مسموم میشیم چی؟
 
 `bb({body:"scream_a_1"})`
 
-b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER AND EV--
+b: ما حتی نمی‌تونیم متوجه اومدن مرگ بشیم. فقط وجودمون تا ابد از بین میره...
 
 `_.a2_attack_3 = "harm";`
 
@@ -818,15 +818,15 @@ b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER
 
 `bb({body:"normal", mouth:"normal", eyes:"sad"})`
 
-b: What if we're just *fundamentally incapable* of ever being loved, or loving another?
+b: اگه ما *اساسا ناتوان* از عشق و عاشقی هستیم چی؟
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if something irreversibly broke inside of us a long time ago? Or never existed in us in the first place?
+b: اگه خیلی وقت پیش یه چیز به طور غیر قابل تعمیر تو ما خراب شده چی؟ یا شایدم اصلا از اول تو ما وجود نداشته؟
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: وای ما چقدر خرابیم! خراب خراب خرا--
 
 `_.a2_attack_3 = "alone";`
 
@@ -836,19 +836,19 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: What if we're just *fundamentally rotten?*
+b: اگه ما *اساسا فاسدیم* چی؟
 
 `bb({body:"one_up", eyes:"sad"})`
 
-b: Others have an inner drive to do goodness, but we only do "good" out of guilt or shame, if at all.
+b: بقیه یه انگیزه درونی دارن که باعث میشه کارای خوب بکنن اما ما کارای "خوب" رو از روی احساس گناه و شرم انجام میدیم.
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if it's in our nature to hurt others? What if we can't be anything *other* than a burden to those close to us?
+b: اگه ذاتمون جوریه که باعث میشه به بقیه آسیب برسونیم چی؟ اگه ما نتونیم چیزی جز باری بر دوش نزدیکانمون باشیم چی؟
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: وای ما چقدر خرابیم! خراب خراب خرا--
 
 `_.a2_attack_3 = "bad";`
 
@@ -858,15 +858,15 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: I'm not being irrational. People *do* drug punch bowls. That is an actual thing that actually happens.
+b: من غیرمنطقی حرف نمیزنم. مردم تو لیواناشون مواد و مشروب میریزن. ای یه چیزیه که واقعا اتفاق میوفته.
 
 `bb({eyes:"suspect"})`
 
-b: Human, does your head hurt? Are your limbs limp? I think we're dying.
+b: انسان، سرت درد نمیکنه؟ دست و پاهات بی حس نشدن؟ فک کنم داریم می‌میریم.
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE DYING! WE'RE DYING WE'RE DYING WE'RE DYI--
+b: وایی داریم می‌میریم! می‌میریم می‌میری--
 
 `_.a2_attack_3 = "harm";`
 
@@ -898,70 +898,70 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: F^AAACK^!
+h: لعننت!
 
-h: F^ACK^ING F^ACK^-F^AKK^ITY *F^AAAAACK^*
+h: لعنت بهت! ^کیر^ توت! ^کون^ لقت!
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
-b: Yay, human! I'm so happy you can hear me again!
+b: هوراا، انسان! خیلی خوشحالم که دوباره صدامو میشنوی!
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
-b: Why were you ignoring me?
+b: چرا داشتی منو نادیده می‌گرفتی؟
 
 `hong({body:"facepalm"})`
 
-h: Holy ^hell^, you absolute moron.
+h: یا خود خدا، تو دیگه چه الاغی هستی.
 
 `hong({body:"facepalm_2"})`
 
-h: You know that Native American story?
+h: اون داستان آمریکایی بومی رو شنیدی؟
 
-h: "There are two wolves inside you, one is hope, one is despair, which wolf wins? The one you feed."
+h: "درون تو دو گرگ وجود دارن، یکی امید، و دیگری ناامیدی، و کدوم گرگ زنده می‌مونه؟ اون گرگ که بهش توجه می‌کنی."
 
 ```
 hong({body:"facepalm_3"});
 bb({eyes:"normal"});
 ```
 
-h: I was trying to *starve* you, you sadistic ^asshole^!
+h: من داشتم سعی می‌کردم که به تو اهمیت ندم! چون تو یه کله شق سادیسمی!
 
 `hong({body:"smile", mouth:"smile"})`
 
-h: Screw it, I'll do positive affirmations instead.
+h: ^گوه^ توش، بجاش از جملات انگیزشی استفاده می‌کنم.
 
-h: *I am loved. I am good. I am smart. I am beautiful. I am special.*
+h: *من دوست داشتنی‌ام. من خوبم. من باهوشم. من زیبام. من خاصم.*
 
 `bb({eyes:"suspect"});`
 
-[Golly, that's so narcissistic!](#act2d_narcissist)
+[خدایا، این چقدر خودشیفتس!](#act2d_narcissist)
 
-[Y'know affirmations were *disproven?*](#act2d_disproven)
+[مگه نمیدونی جملات انگیزشی *تکذیب* شدن؟](#act2d_disproven)
 
-[omg don't credit random stories to indigenous folk](#act2d_racist)
+[وای خدا نا‌دونسته مردم بومی بیچاره رو منبع هر داستانی نکن!](#act2d_racist)
 
 # act2d_disproven
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: In fact, they actually *backfire* for people with low self-esteem! 
+b: در واقع، اونا عملا *نتیجه معکوس* روی افراد با عزت نفس پایین دارن.
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: It was a well-designed study – randomized controlled trial, experimenter was blinded as to who was in which group.
+b: تحقیق تر و تمیزی بود- یه آزمایش تصادفی شده و کنترل شده که درش آزمایش کننده خبر نداشت چه‌کسی تو چه‌گروهی هست.
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
-b: Results: if you already had low self-esteem, being asked to repeat affirmations makes you feel *worse* than if you'd said nothing at all!
+b: و نتایجش: اگه از قبل عزت نفس پایین داشتی، تکرار جملات انگیزشی حالت رو *بدتر* از زمانی می‌کرد که هیچی نمی‌گفتی!
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009, Psychological Science. Look it up on Google Scholar, human,
+b: منبع:Wood 2009, Psychological Science.
 
 `bb({body:"scream_b_1"})`
 
-b: THEN STOP SPREADING UNSCIENTIFIC FAKE NEWS
+b: دیگه نبینم چرت و پرت های غیر علمی بگی ها!
 
 ```
 hong({body:"attacked"});
@@ -977,19 +977,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: You *need* to humbly see your own flaws in order to grow as a person!
+b: اگه میخوای رشد شخصیتی داشته باشی *نیاز* داری که عیب های خودت رو شناسایی کنی.
 
 `bb({body:"two_up", eyes:"suspect"})`
 
-b: You can't spray air freshener over a moldy room! Covering up your flaws makes you worse in the long run.
+b: نمیتونی بوی گند یه اتاق رو برای همیشه با خوشبو کننده رفع کنی! نادیده گرفتن عیب هات با گذشت زمان اونا رو بدتر میکنه!
 
 `bb({body:"chest", mouth:"smile", eyes:"closed"})`
 
-b: Thankfully, I, as your loyal guard-wolf, can alert you to your flaws. And right now, it's-
+b: خداروشکر، من، بعنوان گرگ محافظ تو، میتونم عیب هات رو بهت گوش‌زد کنم، و الانم-
 
 `bb({body:"scream_b_1"})`
 
-b: EVERYTHING. EVERYTHING IS WRONG
+b: همه چی! همه چی درباره تو اشتباهه!
 
 ```
 hong({body:"attacked"});
