@@ -23,41 +23,41 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* that hits the spot.
+h2: *آخیش* چسبیدا.
 
 ```
 publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: You know, kid...
+r: می‌دونی، بچه جون...
 
 ```
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: Specifically, the spots hit are my left and right amygdala.
+h2: مخصوصا به آمیگدال های چپ و راستم چسبید.
 
 ```
 publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: You remind me of myself when I was younger. Back when I was tormented by the animal in my head.
+r: تو منو یاد خودم می‌ندازی وقتی که جوون بودم. وقتی که حیوون درونم منو شکنجه می‌کرد.
 
 ```
 publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.
+r: خیلی خوشحالم که می‌تونم. این لطف رو در حقت بکنم و بهت کمک کنم دیو درونت رو همونجوری که من مال خودمو کشتم بکشی.
 
 ```
 publish("act3",["roofhunter",2]);
 ```
 
-r: Hey, quick question: truth or da--
+r: هی، یه سوال، جرعت یا حقیق--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -65,7 +65,7 @@ publish("act3",["roofhong",7]);
 publish("act3-alpha", ["dizzyhong",0]);
 ```
 
-h2: DARE!
+h2: جرعت!
 
 ```
 publish("act3-alpha", ["dizzyhong",1]);
@@ -73,14 +73,14 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! Good.
+r: هاها! خوبه.
 
 ```
 publish("act3",["roofhunter",21]);
 publish("act3",["roofhong",4]);
 ```
 
-r: Ok. You see that baby-blue swimming pool down there?
+r: خب. اون استخر شنا رو اون پاییین می‌بینی؟
 
 ```
 publish("act3-alpha", ["dizzyhong",0]);
@@ -88,14 +88,14 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",9]);
 ```
 
-h2: Yeah? Six floors down?
+h2: آره؟ همون که شیش طبقه پایینه؟
 
 ```
 publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",8]);
 ```
 
-r: Jump in.
+r: بپر توش.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -108,39 +108,39 @@ h2: ...
 publish("act3",["roofhong",11]);
 ```
 
-h2: Wait, what?
+h2: صبر کن بینم، چی؟
 
 ```
 publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: حیوونه شروع کرده به غر زدن مگه نه؟
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo it's dangerous, don't do iiiiit.*
+r: *وااای نهههه خطرناکه، نکنی یوقت.*
 
 ```
 publish("act3",["roofhunter",22]);
 ```
 
-r: But that's exactly why we need death-defying thrills! Party hard! Carpe diem! Snort coke off a hooker's ^ass^, #YOLO!
+r: ولی این دقیقا دلیلیه که ما ماید این کارای پرهیجان مرگبار رو انجام بدیم! در لحظه زندگی کن!
 
 ```
 publish("act3",["roofhunter",10]);
 ```
 
-r: Show that animal we don't give two *^dick^s* about its ^bitch^ing! Jump in.
+r: به اون حیوون نشون بده که غر زدنش به چپمون هم نیست! بپر توش.
 
 ```
 publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
 
-h2: Uh, but sometimes, um... fear has a point...
+h2: آم، ولی بعضی وقتا... حق با ترسه...
 
 ```
 publish("act3",["roofhunter",5]);
@@ -156,43 +156,43 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: I'm sorry, did you fall for that McMindfulness propaganda that claims feeling bad is *good?*
+r: ببخشید، نکنه دوباره گول تبلیغات اون کتابای حضور در لحظه (ذهن آگاهی) رو خوردی که میگن احساسات بد درواقع *خوبن*؟
 
 ```
 publish("act3",["roofhunter",17]);
 ```
 
-r: The ^assholes^ who run this world give the rest of *us* anxiety and depression,
+r: اون ^کونی^ هایی که این دنیا رو میچرخونن به بقیه *ما* ها اضطراب و افسردگی میدن.
 
 ```
 publish("act3",["roofhunter",18]);
 ```
 
-r: Then make TED Talks to tell us to "accept" being ^fucked^ over, and "embrace" that sadistic demon in our heads!
+r: بعدم تو سخنرانی هاشون بهمون میگن که *کیر* خوردن رو قبول کنیم و اون دیو سادیسمی تو کلمون رو بپذیریم.
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Kid, I know that *you* know that animal *hurts* people like us. It *tortures* people like us.
+r: ببین بچه‌جون، من می‌دونم که *تو* می‌دونی اون حیوون به افردای مثل ما صدمه میزنه. افرادی مثل ما رو *شکنجه* می‌کنه.
 
 ```
 publish("act3",["roofhunter",19]);
 ```
 
-r: It's not our friend. It's a rabid beast, which either needs to be *tranquilized*,
+r: اون دوست ما نیست. اون یه دیو هاره، که یا باید *بیهوش* بشه،
 
 ```
 publish("act3",["roofhunter",20]);
 ```
 
-r: Or have a *bullet put in its skull*.
+r: یا *یه گلوله بخوره تو سرش*
 
 ```
 publish("act3",["roofhunter",27]);
 ```
 
-r: Otherwise, you're going to let it win.
+r: وگرنه، تو بهش اجازه میدی که ببره.
 
 ```
 publish("act3",["roofhunter",31]);
@@ -200,7 +200,7 @@ publish("act3",["roofhong",14]);
 publish("act3",["dd",2]);
 ```
 
-h2: No. You're wrong.
+h2: نه. تو اشتباه می‌کنی.
 
 ```
 publish("act3",["roofhunter",13]);
@@ -210,7 +210,7 @@ music('battle_dark', {volume:1.0}, function(){
 });
 ```
 
-h2: I'm not going to let it win.
+h2: من بهش اجازه نمیدم ببره.
 
 ```
 publish("act3",["roofhunter",25]);
