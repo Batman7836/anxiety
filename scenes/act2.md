@@ -553,7 +553,7 @@ b: ای انسان، ما باید قبل از اینکه این زامبی ها
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zombies";
+_.a2_hoodie_callback = "زامبی‌ها";
 ```
 
 (#act2c)
@@ -581,7 +581,7 @@ b: با اومدن به پارتی ما داریم به *هیتلر* کمک می
 ```
 _.a2_second_danger = 'hitler';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "Hitler";
+_.a2_hoodie_callback = "هیتلر";
 ```
 
 (#act2c)
@@ -605,7 +605,7 @@ b: می‌میریییییی!
 ```
 _.a2_second_danger = 'ignore';
 _.a2_attack_2 = "harm";
-_.a2_hoodie_callback = "carbon monoxide";
+_.a2_hoodie_callback = "کربن مونواکسید";
 ```
 
 (#act2c)
@@ -1170,7 +1170,7 @@ b: واسه همین من حتی *بیشتر* تلاش میکنم که به تو
 
 `bb({eyes:"cry_2"})`
 
-b: ولی انگار هر چقدرم که من سعی کنم که ازت محافظت بکنم، تو *هنوز* فکر می‌کنی من دشمنتم!
+b: ولی انگار هر چقدرم که من سعی کنم ازت محافظت بکنم، تو *هنوز* فکر می‌کنی من دشمنتم!
 
 `bb({body:"cry_5"});`
 
@@ -1510,15 +1510,15 @@ h: اون دیگه چه کوفتی بود؟
 b: منو ببخش. مجبور شدم بهت عواقب کارات رو نشون بدم.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: I COULD *SEE* MY OWN CORPSE. I COULD *FEEL* THE SENSATION OF BEING ACTUALLY DEAD.
+h: من می‌تونستم جسد خودمو ببینم! می‌تونستم مرده بودن خودمو احساس کنم!
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: I COULD *SEE* EVERYONE'S LOOK OF DISGUST. I COULD *HEAR* ALL THE THINGS THEY SAID.
+h: من می‌تونستم نگاه منزجر شده همشون رو ببینم! می‌تونستم هر چی که پشت سرم میگفتن رو بشنوم!
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: I COULD *HEAR* THE CRUNCHING OF RIBS. I COULD *TASTE* THE BLOOD IN THE AIR.
+h: می‌تونستم صدای شکستن استخوان ها رو بشنوم! می‌تونستم بوی خون رو تو هوا احساس کنم!
 {{/if}}
 
 b: من متاسفم انسان.
