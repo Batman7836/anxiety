@@ -219,7 +219,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: ^Fuck^ yeah! I believe in you, babe! Kill it! <3
+r: همینه! من بهت ایمان دارم عزیزم! بکشش!
 
 (#act3a)
 
