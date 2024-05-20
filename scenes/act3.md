@@ -219,7 +219,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: همینه! من بهت ایمان دارم عزیزم! بکشش!
+r: همینه! من بهت ایمان دارم! بکشش!
 
 (#act3a)
 
@@ -240,38 +240,38 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: no no no no no no
+b: نه نه نه نه نه
 
-n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*
+n: این قسمت دوتا پایان ممکن داره و یکیشون *خیلی خیلی بده!*
 
-b: NO NO NO NO NO NO NO NO NO NO NO NO NO NO
+b: نه نه نه نه نه نه نه نه 
 
-n: CHOOSE WISELY. PROTECT YOUR HUMAN
+n: بادقت انتخاب کن. از انسانت محافظت کن.
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
-b: AAAAAAAAAAAAAAAAAA
+b: واااااااای
 
 `bb({ mouth:"normal" });`
 
-n: GOOD LUCK
+n: موفق باشی.
 
 ```
 Game.clearText();
 bb({ eyes:"start" });
 ```
 
-[Human, you could actually DIE here!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
+[انسان، دیگه واقعا اینجا می‌تونی بمیری!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is stupid and self-destructive!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
+[این کار احمقانه و خود تخریبیه!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[These sickos aren't really your friends!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
+[اون روان‌پریش ها واقعا دوستات نیستن!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: H--
+b: ا--
 
 (#act3a_after)
 
@@ -279,7 +279,7 @@ b: H--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: ا--
 
 (#act3a_after)
 
@@ -287,7 +287,7 @@ b: T--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: ا--
 
 (#act3a_after)
 
@@ -307,9 +307,9 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You know, I might've believed you... if you hadn't tried that a zillion times before.
+h: میدونی چیه، من شاید باورت می‌کردم...اگه هزار بار دیگه همین حرفا رو نزده بودی.
 
-h: You're the wolf who cried wolf.
+h: تو شدی عین چوپان دروغگو.
 
 ```
 bb({ eyes:"sad" });
@@ -354,43 +354,43 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You tried that too.
+h: قبلا اونم امتحان کردی.
 
-b: human, please...
+b: انسان، لطفا...
 
 `hong({ eyes:"look_right" });`
 
-h: Oh I'm *sorry* Big Pharma doesn't approve of my self-medication.
+h: اوه *ببخشید* که صنعت داروسازی خود درمانی منو قبول نداره.
 
-h: Look ^asshole^, we *all* have a way of shutting you the ^fuck^ up.
+h: ببین ^کونی^، ما *هممون* یه راهی برای خفه کردن تو داریم.
 
 `hong({ body:"look_up", eyes:"look_up" });`
 
-h: Some people throw themselves into work.
+h: بعضیا سرشون رو با کار شلوغ می‌کنن.
 
 `hong({ body:"look_down", eyes:"look_down" });`
 
-h: Some people throw themselves into sex, drugs, and refreshing their Facebook feed.
+h: بعضیا وقتشون رو با سکس، مواد زدن و چک کردن اینستا تلف می‌کنن.
 
 `hong({ body:"normal", eyes:"look_right" });`
 
-h: Some people throw themselves into other people. 
+h: بعضیا هم خودشون رو به یکی دیگه می‌چسبونن.
 
 `hong({ eyes:"angry" });`
 
-h: I'm going to throw myself into that swimming pool.
+h: منم میخوام خودمو بندازم تو این استخر.
 
-[You're drunk and it's SIX FLOORS DOWN](#act3_bad_1_harm)
+[تو مستی و اون شیش طبقه پایینه!](#act3_bad_1_harm)
 
-[Dang it, this is the thanks I get?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
+[هعی، اینجوری از من تشکر می‌کنی؟!](#act3_bad_1_insult) `bb({eyes:"angry"});`
 
-[Okay, I admit it. I messed up.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[باشه، قبول دارم، من گند زدم.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 # act3_bad_1_harm
 
-b: Even if you land in the water, the surface tension will crack your ribs and give you a concussion *at the least!*
+b: حتی اگرم تو استخر بی‌افتی، کشش سطحی آب دنده هات رو خرد می‌کنه و در بهترین حالت ضربه مغزیت می‌کنه!
 
-h: Eh.
+h: اه.
 
 ```
 hong({body:"drink"});
@@ -406,7 +406,7 @@ hong({ body:"normal", mouth:"angry", eyes:"angry" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: I saw a Russian guy do this on YouTube once.
+h: یبار دیدم یه مرد روسی تو یوتوب این کارو کرد.
 
 (#act3_bad_2)
 
@@ -414,13 +414,13 @@ h: I saw a Russian guy do this on YouTube once.
 
 `hong({ eyes:"look_right" });`
 
-h: I- Excuse me, the *thanks?*
+h: چ- ببخشیدا، تشکر کنم؟
 
 `bb({ eyes:"angry" });`
 
-b: This is exactly why I *exist!* Because humans can't be trusted to protect themselves!
+b: این دقیقا دلیلیه که من وجود دارم! انسان نمی‌تونن از خودشون محافظت کنن!
 
-b: I've been trying to protect your stupid butt all my life and now you're just going t--
+b: من تو کل عمرم سعی کردم تو رو از خطر حفظ کنم ولی الان میخوا--
 
 ```
 hong({body:"drink"});
@@ -442,41 +442,41 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `hong({ body:"laugh_1" })``
 
-h: heh.
+h: هه.
 
 `hong({ body:"laugh_2" })``
 
-h: hahahaha
+h: هههه.
 
 `hong({ body:"laugh_3" })``
 
-h: HAHAHAHAHAHA
+h: هههههههههه
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 ```
 
-h: Oh WOW is that the biggest *^fuck^ing* understatement of the century!
+h: ای وای، خردنمایی از این بدتر تو کل قرن نداشتیم!
 
 `hong({ body:"yell_2" });`
 
-h: Yeah, you rotting pile of blood-coated ^shit^! You messed the ^fuck^ up!
+h: آره، تو ^گه^ صفت با اون پشمای قرمزت معلومه که گند زدی!
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" });`
 
-h: Any other remarks, Captain Obvious?
+h: چیز دیگه ای نداری بگی، کاپیتان واضح گو؟
 
-[But revenge on me isn't the answer!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[ولی انتخاب گرفتن از من راهش نیست.](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[But this time I'm *actually* right!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[اما این بار *واقعا* حق با منه.](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[I've hurt you.](#act3_good_2a)
+[من بهت آسیب زدم.](#act3_good_2a)
 
 
 # act3_good_1_fail_revenge
 
-b: You need to have a healthier relationship with your emotions, rather than drown them wi--
+b: تو باید رابطه بهتری با احساساتت داشته باشی، نکه همش بخوای با اون زهر مار--
 
 ```
 hong({body:"drink"});
@@ -498,7 +498,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 # act3_good_1_fail_harm
 
-b: So please, put the bottle down and let's--
+b: پس لطفا، اون بطری رو بذار زمین--
 
 ```
 hong({body:"drink"});
@@ -523,24 +523,24 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `bb({ eyes:"sad" });`
 
-b: please... don't...
+b: لطفا... نکن...
 
-h: Your energy bar's looking awfully low there, wolf.
+h: مثل اینکه جونت خیلی داره کم میشه، گرگی.
 
-h: If I were you, I'd choose your next words very carefully.
+h: اگه من جات بودم، حرف های بعدیت رو بادقت انتخاب می‌کردم.
 
 `bb({ eyes:"normal" });`
 
-[Fine. I'm done protecting you.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
+[باشه. دیگه از محافظت ازت خسته شدم.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
 
-[I was right all along.](#act3_bad_2_right)
+[همه این مدت حق با من بود.](#act3_bad_2_right)
 
-[I'm sorry.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[من متاسفم.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 
 # act3_bad_2_jump
 
-b: So, go ahead and jump. See what I care.
+b: پس، برو دیگه بپر. ببین اگه من اهمیت دادم.
 
 `hong({ eyes:"look_right", mouth:"normal", MOUTH_LOCK:true });`
 
@@ -551,14 +551,14 @@ hong({ eyes:"less_angry", mouth:"normal" });
 bb({ eyes:"ignore_oh_crap" });
 ```
 
-h: Okay then. Bottoms up.
+h: باشه دیگه! به سلامتی!
 
 ```
 bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF WHAT I SA--
+b: نه صب کن داشتم از روانشناسی معکوس استفاده می‌کردم. تو باید *برعکس* هر چی که گفتم رو انجام می‌دادی!
 
 (#act3_bad_3)
 
@@ -568,13 +568,13 @@ b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF
 
 `bb({ eyes:"angry" });`
 
-b: You *are* putting yourself in danger. Your so-called friends *are* using you. And *you* are using your so-called friends.
+b: تو *داری* خودتو تو معرض خطر قرار می‌دی. اینایی که مثلا دوستاتن *دارن* ازت سوءاستفاده می‌کنن. و تو‌ هم *داری* از اونا سوءاستفاده می‌کنی.
 
 `bb({ eyes:"sad" });`
 
-b: So please, human... why don't you believe me?!
+b: پس لطفا، انسان... چرا به حرفم گوش نمیدی؟
 
-h: Because you never believed in *me*.
+h: چون تو هیچوقت به *من* باور نداشتی.
 
 (#act3_bad_3)
 
