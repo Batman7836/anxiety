@@ -583,13 +583,13 @@ h: چون تو هیچوقت به *من* باور نداشتی.
 
 `bb({ eyes:"angry" });`
 
-b: Other guard-wolves have humans who actually take time to patiently train them, to *learn* to work together,
+b: گرگ های نگهلان دیگه انسان هایی دارن که از وقتشون می‌زنن تا صبورانه تربیتشون کنن، تا *یاد بگیرن* چطوری باهم کار کنن،
 
-b: Rather than hate the guard-wolves for trying to protect them! So why can't you jus--
+b: بجای اینکه از گرگ نگهبانشون متنفر باشن چون سعی میکنه ازشون محافظت کنه! پس پرا تو نمی‌تونی فقط--
 
 `bb({ eyes:"normal" });`
 
-h: Wrong ^fuck^ing answer.
+h: جوابت اشتباه بود ^کیری^.
 
 (#act3_bad_3)
 
@@ -614,29 +614,29 @@ bb({ body:"dead" });
 
 (...999)
 
-h: *"The only thing to fear is fear itself."*
+h: *"تنها چیزی که باید از آن ترسید خود ترس است."*
 
 `hong({ body:"look_up", mouth:"happy", eyes:"blank" });`
 
-h: *"Don't worry, be happy!"*
+h: *"نگران نباش، خوشحال باش!"*
 
 `hong({ body:"normal", mouth:"normal", eyes:"normal" });`
 
-h: All the wise folk of our time agree: negative emotions are *bad!*
+h: تمام آدمای خردمند این زمونه موافقن که: احساسات منفی *بدن*!
 
 `hong({ eyes:"less_angry" });`
 
-h: Duh! That's why they're called *negative!*
+h: والا! واسه همین بهشون میگن *منفی*!
 
-b: human... please...
+b: انسان... لطفا...
 
 `hong({ eyes:"normal" });`
 
-h: A while back, I said: “I just want to be free from all this pain.”
+h: یه مدت قبل، من گفتم: "من فقط میخوام از شر این همه درد خلاص بشم."
 
-h: I got my wish. I no longer feel pain, or fear, or anxiety...
+h: من به آرزوم رسیدم. دیگه نه درد، نه ترس و نه اضطراب...
 
-h: I don't feel anything at all.
+h: اصلا دیگه هیچ حسی ندارم.
 
 `_.a3_ending = "jump";`
 
@@ -648,7 +648,7 @@ h: I don't feel anything at all.
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
 
-b: I was so obsessed with making sure nothing else hurt you, that I didn't realize *I* was creating the hurt.
+b: انقد میخواستم مطمئن بشم چیزی بهت صدمه نمی‌زنه، که متوجه نشدم *من* اون چیزی بودم که داشت بهت صدمه می‌زد.
 
 ```
 bb({ eyes:"sorry"});
@@ -659,11 +659,11 @@ h: NO. S^HIT^.
 
 `hong({ body:"yell_1" });`
 
-h: ^GODDAMN^. It really took you this long to finally figure it out?!
+h: !ای خدا لعنتت کنه! واقعا انقد طول کشید تا بفهمی؟
 
 `hong({ body:"cry", mouth:"cry", eyes:"blank" });`
 
-h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't you realize this sooner?...
+h: تو می‌تونستی از این همه بدبختی‌مون جلوگیری کنی، تو ^اسکل^ پشمالو. چرا زودتر متوجه نشدی؟
 
 `_.apologized_for_hurt = true;`
 
@@ -675,13 +675,13 @@ h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't y
 
 `hong({ body:"normal", mouth:"angry", eyes:"look_right" });`
 
-h: ...you're *sorry.*
+h: ... تو *متاسفی*.
 
 `hong({ eyes:"angry", MOUTH_LOCK:true });`
 
 h: ...
 
-h: Sorry for *what*?
+h: برای *چی* متاسفی؟
 
 (#act3_good_2q)
 
@@ -703,11 +703,11 @@ h: Sorry for *what*?
 
 `hong({ body:"normal", mouth:"angry", eyes:"less_angry" });`
 
-[I'm sorry I wasn't a good protector.](#act3_good_3_protector)
+[متاسفم که محافظ خوبی نبودم.](#act3_good_3_protector)
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[متاسفم که بهت احترام نذاشتم.](#act3_good_3_respect)
 
-[I'm sorry.](#act3_good_4)
+[من متاسفم.](#act3_good_4)
 
 
 # act3_good_2q_not_already_apologized
