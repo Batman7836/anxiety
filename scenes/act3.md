@@ -714,11 +714,11 @@ h: برای *چی* متاسفی؟
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" }, 0);`
 
-[I'm sorry I have a terrible human!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
+[متاسفم که یه انسان آشغال دارم!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[متاسفم که بهت احترام نذاشتم.](#act3_good_3_respect)
 
-[I'm sorry I hurt you.](#act3_good_3_hurt)
+[متاسفم که بهت صدمه رسوندم.](#act3_good_3_hurt)
 
 
 
@@ -726,19 +726,19 @@ h: برای *چی* متاسفی؟
 
 `bb({eyes:"sorry_down"});`
 
-b: It's my duty to warn you against *real* danger, but I kept barking at cars and the mailman.
+b: وظیفه من اینه که از تو دربرابر خطرات *واقعی* محافظت کنم، ولی من فقط جلوی ماشین ها و پست‌چی ها پاس می‌کردم.
 
 `bb({eyes:"sorry_up"});`
 
-b: Barking at shadows. Barking so much.
+b: برای سایه های پاس می‌کردم. خیلی پاس می‌کردم.
 
 `bb({eyes:"sorry"});`
 
-b: It only makes sense that you'd want to muzzle me.
+b: با عقل جور درمیاد که بخوای منو ساکت کنی.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: من متاسفم.
 
 (#act3_good_4)
 
@@ -748,15 +748,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was supposed to be *your* loyal guard-dog, but I acted as if you were supposed to obey *me*.
+b: ناسلامتی قرار بود من سگ نگهبان وفادار *تو* باشم، ولی جوری رفتار کردم که انگار تو باید از *من* اطاعت کنی.
 
 `bb({eyes:"sorry_up"});`
 
-b: There's a difference between a protector and a prison warden, and I crossed the line.
+b: بین یه محافظ و زندان‌بان تفاوت های زیادی وجود داره، ولی من اونارو نادیده گرفتم.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: من متاسفم.
 
 (#act3_good_4)
 
@@ -766,15 +766,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: انقد میخواستم مطمئن بشم چیزی بهت صدمه نمی‌زنه، که متوجه نشدم *من* اون چیزی بودم که داشت بهت صدمه می‌زد.
 
 `bb({eyes:"sorry_up"});`
 
-b: I was a bad dog.
+b: من سگ بدی بودم.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: من متاسفم.
 
 (#act3_good_4)
 
@@ -792,11 +792,11 @@ h: ...
 hong({ body:"stop", mouth:"stop", eyes:"blank" });
 ```
 
-h: Yeah, well, this was a dumb idea anyway.
+h: آره، خب، اینم بهرحال ایده بدی بود.
 
-h: I only did this to mess you up, and, well, I messed you up.
+h: من  فقط این کارو کردم که تورو بهم بزنم، و، خب، تورو بهم زدم.
 
-h: Let's just call this round a tie, okay?
+h: چطوره این راند رو مساوی در نظر بگیریم، نظرته؟
 
 ```
 bb({ mouth:"sorry", eyes:"sorry" });
@@ -805,11 +805,11 @@ bb({ MOUTH_LOCK:true });
 
 b: ...
 
-b: Okay.
+b: باشه.
 
-h: Okay.
+h: باشه.
 
-n: *TIE*
+n: *مساوی*
 
 `_.a3_ending = "walkaway";`
 
@@ -885,26 +885,26 @@ publish("act3",["roofhunter",27]);
 
 `Game.FORCE_CANT_SKIP = false;`
 
-r: Oh *come on*. After all that animal's done to you, you're just *giving up?*
+r: اوه *بی خیال*. بعد اون همه بلایی که اون حیوون سرت آورده، داری همینطوری تسلیم میشی؟
 
-r: What's the matter, kid? Are you *scared?*
+r: چی شده‌، بچه جون؟ نکنه *ترسیدی*؟
 
 ```
 publish('hong-next');
 publish("act3",["roofhunter",26]);
 ```
 
-h2: Yes.
+h2: آره.
 
-h2: I'm scared.
-
-`publish('hong-next')`
-
-h2: And that's okay!
+h2: من ترسیدم.
 
 `publish('hong-next')`
 
-h2: It's okay to be scared.
+h2: و این هیچ اشکالی نداره!
+
+`publish('hong-next')`
+
+h2: بعضی وقتا ترسیدن خوب هم هست.
 
 `publish('hong-next')`
 
@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Did they just lock the door?
+r: صب کن ببینم اونا الان در رو قفل کردن؟
 
 ```
 Game.clearAll();
@@ -1063,7 +1063,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no...
+b: نه...
 
 (...501)
 
@@ -1082,7 +1082,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no no no
+b: نه نه نه
 
 (...501)
 
