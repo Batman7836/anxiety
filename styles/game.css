@@ -200,7 +200,7 @@ PAUSED & LOADING
 	bottom: 0;
 	width: 260px;
 	height: 70px;
-	font-size: 69px;
+	font-size: 54px;
 }
 #paused > div > div{
 	font-size: 20px;
@@ -585,9 +585,13 @@ DIALOGUEZ
 }
 .mini-icon[pic="gear"]{
 	background-position: -0px 0px;
+	position: relative;
+	left: 17px;
 }
 .mini-icon[pic="about"]{
 	background-position: -100% 0px;
+	position: relative;
+	left: 17px;
 }
 .mini-icon[pic="next"]{
 	background-position: -200% 0px;
