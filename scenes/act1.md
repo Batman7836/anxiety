@@ -59,27 +59,27 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: مارو مجبور میکنن عین توپ خودمونو جمع کنیم و زار بزنیم!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: مارو مجبور میکنن گوشیت رو نابود کنیم چون داشت باعث حمله پانیک می‌شد!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: مارو مجبور میکنن به میزبان پارتی مشت *نزنیم*!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: مارو مجبور میکنن به اون میزبان پارتی آشغالی مشت بزنیم!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: خب حداقل این‌سری دیگه از روی سقف نمی--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: مارو مجبور میکنن از روی سقف بپریم.
 {{/if}}
 
 `bb({body:"fear"});`

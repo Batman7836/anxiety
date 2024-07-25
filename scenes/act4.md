@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (game auto-saved)
+n3: (بازی بصورت اتوماتیک ذخیره شد.)
 
 ```
 Game.clearText();
@@ -208,7 +208,7 @@ hong({body:"sigh_2"});
 bb({eyes:"look_down"});
 ```
 
-h: *sigh*
+h: *نفس عمیق*
 
 ```
 hong({body:"hold", eyes:"normal", mouth:"normal"});
