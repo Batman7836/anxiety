@@ -655,7 +655,7 @@ bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: NO. S^HIT^.
+h: نه بابا!
 
 `hong({ body:"yell_1" });`
 
@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: صب کن ببینم اونا الان در رو قفل کردن؟
+r: صب کن ببینم اون الان در رو قفل کرد؟
 
 ```
 Game.clearAll();
@@ -1150,7 +1150,7 @@ Game.FORCE_TEXT_Y = 325;
 Game.OVERRIDE_FONT_SIZE = 50;
 ```
 
-b: NO!
+b: نه!
 
 (...400)
 
