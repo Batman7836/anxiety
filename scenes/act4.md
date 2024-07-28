@@ -215,39 +215,39 @@ hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: پس نتیجه اخلاقی این داستان چی بود دقیقا؟
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: چی *یادگرفتیم* اصلا؟ من *داشتم* احمقانه رفتار می‌کردم، "دوستام" *داشتن* از من سوء‌استفاده می‌کردن، و ما تقریبا *مردیم*.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[آره، تازه اگه حرفی از قبض بیمارستان نزنیم.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[آره، تازه اگه صدمه به کبدت رو نادیده بگیریم.](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[آره، اون بدترین حالت ممکن *بود*.](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[آره، حق با من بود.](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: درسته. فک نکنم طرح بیمه من شامل "یه ^اسکل^ بدبخت بودن" رو شامل میشه.
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: با این‌حال... ما زنده موندیم!
 
 `hong({eyes:"normal"});`
 
-h: ?
+h: ؟
 
 (#act4b)
 
@@ -255,18 +255,18 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: ما قطعا یه چندسالی از طول عمرمون کم کردیم...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
+b: ولی حداقل ما هنوز یه عمری *می‌کنیم*! ما زنده موندیم!
 
 ```
 hong({eyes:"surprise"});
 bb({eyes:"normal"});
 ```
 
-h: ?
+h: ؟
 
 (#act4b)
 
@@ -274,13 +274,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: و با این‌حال...
 
-h: Hm?
+h: هم؟
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
+b: ما زنده موندیم!
 
 (#act4b)
 
@@ -288,19 +288,19 @@ b: We survived!
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: ولی... حق با تو هم بود.
 
 `hong({eyes:"surprise"});`
 
-h: Hm?
+h: هم؟
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: من عین چوپان دروغگو *بودم*. پس وقتی خطر *واقعی* مارو تهدید می‌کرد، تو - با دلیل منطقی - منو باور نکردی.
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: و با این‌حال، ما زنده موندیم!
 
 (#act4b)
 
@@ -311,16 +311,16 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: با وجود همه اینها، ما هنوز اینجاییم.
 
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: You seem pretty calm considering we just had a near-death experience.
+h:  تو خیلی آروم بنظر می‌رسی با وجود اینکه ما تازه یه تجربه نزدیک به مرگ داشتیم.
 {{/if}}
 
 {{if !_.INJURED}}
-h: You seem pretty calm considering we just had a *near*-near-death experience.
+h: و خیلی آروم بنظر می‌رسی با وجود اینکه ما تازه یه تجربه *نزدیک* نزدیک به مرگ داشتیم.
 {{/if}}
 
 ```
@@ -328,21 +328,21 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Well, it makes everything else less scary in comparison. It's also got me thinking.
+b: خب، باعث میشه همه‌چی به نسبت کمتر ترسناک بنظر بیاد. همچنین منو به فکر انداخت.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: If me fighting you sucks, because it doesn't protect you...
+b: اگه دعوا من با تو مزخرفه، چون ازت حفاظت نمی‌کنه...
 
-h: But me fighting you *also* sucks, because it just makes you yell louder...
+h: ولی دعوا من با تو هم مزخرفه، چون فقط باعث میشه صدات رو ببری بالا...
 
 `bb({eyes:"normal_r"})`
 
-b: Then maybe...
+b: پس شاید...
 
 `bb({eyes:"normal"})`
 
-h: Maybe we don't have to fight.
+h: شاید ما مجبور نیستیم دعوا کنیم.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -381,15 +381,15 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
+b: من یه گرگ بزرگ خورنده نیستم. اما من یه گرگ نگهبان هم نیستم.
 
 `bb({eyes:"sad_d"})`
 
-b: I'm a battered shelter dog.
+b: من یه سگ صدمه‌دیده پناهگاهی هستم.
 
 `bb({eyes:"sad"})`
 
-b: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
+b: ما از شرایط سختی گذشتیم. شاید شوک یا غفلت. این دلیلیه که من بعضی وقتا زیادی واکنش میدم و میگم:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -400,7 +400,7 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: YAP YAP YAP YAP YAP
+b: ور ور ور ور ور
 
 (...1884)
 
@@ -410,35 +410,35 @@ Game.FORCE_CANT_SKIP = false;
 bb({body:"normal", mouth:"scream", eyes:"scream_sad"});
 ```
 
-b: But I don't *want* to be a cowardly dog! I want to protect you! I want to be a good dog!
+b: اما من *نمیخوام* یه سگ ترسو باشم! من میخوام ازت محافظت کنم! من میخوام یه سگ خوب باشم!
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Human... will you help tame this wolf?
+b: انسان... کمک می‌کنی این گرگ رو رام کنی؟
 
 `hong({eyes:"sad"})`
 
-h: I... I'll try.
+h: من... من سعیم رو می‌کنم.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
+h: خب. رابطه سالم با احساسات. رابطه‌ها نیاز به ارتباط خوب دارن. پس، بیا ارتباط برقرار کنیم.
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
+h: پنج دقیقه بعدی قراره خیلی بیخود باشن، اما بیا وانمود کنیم تا بهش برسیم.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Dear inner wolf... how are *you* feeling?
+h: گرگ درون عزیز... حال *تو* چطوره؟
 
-n2: TOTAL FEARS USED:
+n2: تمام ترس های استفاده شده:
 
-n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
+n2: *صدمه دیدن* {{_.attack_harm_total}}, *کمبود محبت* {{_.attack_alone_total}}, *آدم بدی بودن* {{_.attack_bad_total}}
 
-n2: WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
+n2: می‌خوای اول درباره کدوم ترس صحبت کنی؟
 
 ```
 _.a4_fears_discussed = 0;
@@ -447,11 +447,11 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[I'm scared we'll be harmed.](#act4_harm)
+[من می‌ترسم ما صدمه ببینیم.](#act4_harm)
 
-[I'm scared we'll be alone.](#act4_alone)
+[من می‌ترسم ما تنها می‌مونیم.](#act4_alone)
 
-[I'm scared we're bad people.](#act4_bad)
+[من می‌ترسم ما آدم بدی هستیم.](#act4_bad)
 
 # act4_harm
 
@@ -462,53 +462,53 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: I want to protect your need for physical safety,
+b: من می‌خوام از سلامت فیزیکیت حفاظت کنم،
 
 `bb({eyes:"sad_d"})`
 
-b: But the *whole world* seems so dangerous. So full of tragedy and evil.
+b: ولی *کل دنیا* خطرناک بنظر میاد، پر از مصیبت و شرارت.
 
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: من نمدونم، دیگه *من* به اندازه کافی انتخاب کردم چی بگی. تو چی میخوای بگی، انسان؟
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: دوباره، نوبت توعه، انسان. چی تو ذهنته؟
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: فکر دیگه‌ای داری، انسان؟
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[You're right. So let's protect ourselves.](#act4_harm_skills)
+[حق با توعه. بیا از خودمون محافظت کنیم.](#act4_harm_skills)
 
-[Let's expose ourselves to *more* danger.](#act4_harm_exposure)
+[بیا خودمون رو در معرض خطرات *بیشتری* قرار بدیم.](#act4_harm_exposure)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "physical safety";`
+[ممنون.](#act4_thanks) `_.thanks_for = "physical safety";`
 
 # act4_harm_skills
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: But... how? I have fangs and claws, but I'm just a metaphor.
+b: ولی... چجوری؟ من نیش و پنجه دارم، ولی من فقط یه کنایه‌ام.
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+h: می‌تونیم دفاع شخصی یادبگیریم؟ عضو یه اجتماع بشیم که از همدیگه محافظت می‌کنن؟ سلامت و فضای شخصی خودمون رو ارتقا بدیم؟
 
 ```
 bb({ eyes:"annoyed_r" });
 hong({ body:"normal", eyes:"normal" });
 ```
 
-b: Maybe, but...
+b: شاید، اما...
 
 [Where do we even start?](#act4_harm_skills_start)
 
