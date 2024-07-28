@@ -510,11 +510,11 @@ hong({ body:"normal", eyes:"normal" });
 
 b: شاید، اما...
 
-[Where do we even start?](#act4_harm_skills_start)
+[اصلا از کجا شروع کنیم؟](#act4_harm_skills_start)
 
-[What if they still don't work?](#act4_harm_skills_work)
+[اگه بازم کار نکنن چی؟](#act4_harm_skills_work)
 
-[What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[اگه توی حفاظت زیاده‌روی کنیم چی؟](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
