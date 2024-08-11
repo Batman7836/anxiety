@@ -520,34 +520,34 @@ b: شاید، اما...
 
 `bb({ eyes:"sad_d" })`
 
-b: There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
+b: کلی کار باید انجام بدیم، کلی از رفتار هامون رو باید اصلاح کنیم. اصلا از کجا *شروع* کنیم؟
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: We're beginning right now.
+h: همین الان داریم شروع می‌کنیم.
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
-b: Eh?
+b: ها؟
 
 ```
 bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
+h: همین الان داریم ارتباط خوب داشتن رو تمرین می‌کنیم. که بهمون کمک می‌کنه خطرات رو بهتر تشخیص بدیم، با اشتباهات خیلی کمتر.
 
 `hong({ eyes:"surprise" });`
 
-h: And *that* will help protect us from harm!
+h: و *اون* جلوی صدمه دیدن مارو می‌گیره.
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Therefore: this *is* self-defense training.
+h: بنابراین: این *همون* تمرین دفاع از خوده.
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: هاه. من بیشتر توقع داشتم یچیزی مثل این باشه:
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -567,26 +567,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: درسته، ما هیچ‌وقت نمی‌تونیم 100% از خودمون محلفظت کنیم...
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: ولی حتی 1% پیشرفت هم بهتر از هیچیه، مگه نه؟
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: تو داری لیوان رو بجای 99% خالی، 1% پر می‌بینی؟
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: همونم هنوز با‌ارزشه اگه وسط بیابون گیر افتادی.
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: خب. نوش جانت اگه اینطوریه.
 
 (#act4_something_else)
 
@@ -594,26 +594,26 @@ b: Well. Bottoms up, then.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
+b: منظورم اینه که، اصلا همه دلیلی که تو به هشدار های من توجه نکردی این بود که *من* تو حفاظت زیاده‌روی کردم!
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Naw, you're right. We would want to do safety in moderation. Everything in moderation.
+h: حق با توعه. ما باید حفاظت رو با ملایمت انجام بدیم. همه‌چیز رو با ملایمت انجام می‌دیم.
 
 `bb({ eyes:"suspect" })`
 
-b: Sorry, *EVERYTHING* in moderation?
+b: ببخشید، *همه‌چیز* رو با ملایمت انجام می‌دیم؟!
 
 `hong({ eyes:"annoyed" })`
 
-h: *A moderate number of things* in moderation.
+h: *یه مقدار ملایمی از چیزها* رو با ملایمت انجام می‌دیم.
 
 ```
 bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: Thank you for making your statements recursively self-consistent.
+b: ممنون که جملاتت رو درست می‌کنی.
 
 (#act4_something_else)
 
@@ -622,29 +622,29 @@ b: Thank you for making your statements recursively self-consistent.
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
 
-b: *WHAT*
+b: *چی*
 
 ```
 bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: I mean, let's say a dog is scared of thunder.
+h: منظورم اینه که، بیا تصور کنیم یه سگ از رعد و برق می‌ترسه.
 
 `hong({ body:"hands_1" });`
 
-h: One trick trainers use is to play a recording of thunder at a low volume, then give the dog a treat for staying calm.
+h: یه ترفند که مربی سگ ها استفاده می‌کنن اینه که صدای رعد و برق رو با شدت کم برای سگ پخش می‌کنن، اگه سگ آروم موند بهش جایزه میدن.
 
 `hong({ body:"hands_2" });`
 
-h: Over several days, the trainer raises the volume bit by bit, until the dog has overcome their fear of thunder.
+h: بعد از چند روز، مربی شدت صدا رو کم کم افزایش میده، تا زمانی که سگ دیگه از رعد و برق نمی‌ترسه.
 
 ```
 hong({ body:"normal", eyes:"surprise" });
 bb({ mouth:"normal", eyes:"normal" });
 ```
 
-h: It's called exposure therapy!
+h: به این روش میگن مواجهه درمانی!
 
 `hong({ body:"point", eyes:"normal" });`
 
