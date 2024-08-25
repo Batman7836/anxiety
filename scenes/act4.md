@@ -648,19 +648,19 @@ h: به این روش میگن مواجهه درمانی!
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Since you're a dog, it should work for you too, right? All mammals have the same fight-or-flight response.
+h: از اونجایی که تو یه سگی، باید برای تو هم کار کنه، مگه نه؟ همه پستانداران یه نوع غریزه ستیر یا گریز دارن.
 
 `hong({ body:"normal" });`
 
-[What if we desensitize *too* much?](#act4_harm_exposure_overboard)
+[اگه تو حساسیت زدایی *زیاده روی* کردیم چی؟](#act4_harm_exposure_overboard)
 
-[What if we're exposed to *real* danger?](#act4_harm_exposure_hurt)
+[اگه در معرض خطر *واقعی* قرار گرفتیم چی؟](#act4_harm_exposure_hurt)
 
-[I'm a wolf, not a dog.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
+[من یه گرگم نه سگ.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
 
 # act4_harm_exposure_dog
 
-h: And I'll show you kindness and patience 'til you're domesticated into a cute lil' puppy.
+h: منم باهات با صبر و مهربانی رفتار می‌کنم تا زمانی که به یه سگ اهلی گوگولی تبدیل بشی.
 
 `bb({ MOUTH_LOCK:true })`
 
@@ -668,7 +668,7 @@ b: ...
 
 `bb({ eyes:"sad", mouth:"smile" })`
 
-b: D'aw.
+b: آخی.
 
 (#act4_something_else)
 
@@ -676,35 +676,35 @@ b: D'aw.
 
 `bb({ eyes:"annoyed" })`
 
-b: We *just* saw what happens if you shut down your fear – you put yourself in *actually* dangerous situations.
+b: ما *همین الان* دیدم چی میشه وقتی ترست رو سرکوب می‌کنی - خودتو وارد موقعیت هایی می‌کنی که *واقعا* خطرناکن.
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Besides, won't *too* much desensitization turn us into psychopaths?
+b: بعدم، فک نمی‌کنی حساسیت زدایی زیادی مارو روانی می‌کنه؟
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
-b: Soon we'll give ourselves treats while watching snuff murder porn!
+b: خیلی زود خودمونو با دیدن قیلم های قتل خوشحال می‌کنیم.
 
 `hong({ eyes:"annoyed" })`
 
-h: I... think there's a line between that and the thunder.
+h: فک...کنم یه مرزی بین اون و رعد‌و‌برق وجود داره.
 
 `bb({ body:"normal", mouth:"normal", eyes:"suspect" })`
 
-b: But exactly *where*, human? *Where?!*
+b: ولی دقیقا *کجا*، انسان؟ *کجا؟!*
 
 `hong({ eyes:"surprise", body:"one_up" })`
 
-h: I don't know. But *you* can help me!
+h: خب نمی‌دونم. ولی *تو* می‌تونی بهم کمک کنی.
 
 `hong({ eyes:"normal", body:"normal" })`
 
-h: Working and negotiating with you, we'll draw that line.
+h: با کار کردن و مذاکره کردن باهم، اون مرز رو مشخص می‌کنیم.
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
+b: باشه. ولی من انگشت شصت ندارم، پس تو باید مرز رو بکشی.
 
 (#act4_something_else)
 
@@ -713,11 +713,11 @@ b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
 `bb({ body:"two_up", eyes:"angry_r" })`
 
 {{if _.INJURED}}
-b: For example: we jumped off a freaking *roof!*
+b: برای مثال: ما از بالای یه *سقف* پریدیم پایین!
 {{/if}}
 
 {{if !_.INJURED}}
-b: For example: we almost jumped off a freaking *roof!*
+b: برای مثال: کم مونده بود از بالای یه *سقف* بپریم پایین!
 {{/if}}
 
 ```
@@ -725,7 +725,7 @@ hong({ eyes:"annoyed" });
 bb({ body:"normal", eyes:"annoyed" });
 ```
 
-h: Nah you're right. One *can* go too far.
+h: نه حق با توعه. آدم *می‌تونه* زیاده روی کنه.
 
 `hong({ eyes:"normal" });`
 
