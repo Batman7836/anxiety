@@ -488,7 +488,7 @@ b: فکر دیگه‌ای داری، انسان؟
 
 [بیا خودمون رو در معرض خطرات *بیشتری* قرار بدیم.](#act4_harm_exposure)
 
-[ممنون.](#act4_thanks) `_.thanks_for = "physical safety";`
+[ممنون.](#act4_thanks) `_.thanks_for = "سلامتی فیزیکی";`
 
 # act4_harm_skills
 
@@ -729,14 +729,13 @@ h: نه حق با توعه. آدم *می‌تونه* زیاده روی کنه.
 
 `hong({ eyes:"normal" });`
 
-h: But that's why, if we do exposure therapy, we'll start small, and make small steps upward.
+h: ولی واسه همینه که اگه مواجهه درمانی کنیم، با قدم های کوچیک شروع می‌کنیم به بالا رفتن.
 
-h: Just before we hit *actual* danger, we stop.
+h: و درست قبل اینکه به خطر *واقعی* برسیم، توقف می‌کنیم.
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
-b: Yeah I draw the line between hearing loud thunder, and standing in a storm with a tall pointy hat.
-
+b: آره منم مرز بین ترسیدن از صدای بلند رعد و برق و ایستادن وسط یه توفان با یه کلاه بلند نوک تیز رو مشخص می‌کنم.
 (#act4_something_else)
 
 # act4_thanks
@@ -763,11 +762,11 @@ b: ...
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait, no arguments for or against what I'm feeling? Just... "thank you"?
+b: صب کن ببینم، یعنی هیچی برای گفتن درباره احساسات من نداری؟ فقط... "ممنون"؟
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
-h: Yeah! Thank you for showing your concern for my {{_.thanks_for}}.
+h: آره! ممنون که نگران {{_.thanks_for}} من هستی.
 
 ```
 bb({ eyes:"closed_annoyed", MOUTH_LOCK:true });
@@ -776,67 +775,67 @@ hong({ eyes:"normal", body:"normal" });
 
 b: ...
 
-h: You okay?
+h: حالت خوبه؟
 
 `bb({ eyes:"super_sad", mouth:"narrow" });`
 
-b: You've never said *thank you* to me before.
+b: تو تابحال از من تشکر نکرده بودی.
 
 `hong({ mouth:"smile" });`
 
-h: Aw you big fuzzy-wuzzy panic-wolf.
+h: آاا چه گرگ گوگولی و پشمالویی.
 
 (#act4_something_else)
 
 # act4_thanks_2
 
-h: Even if you over-react, I appreciate you looking out for my {{_.thanks_for}}.
+h: با اینکه بعضی وقتا بیش از حد واکنش میدی، مرسی که مراقب {{_.thanks_for}} من هستی.
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait... you're not just repeating "thank you" to avoid actually talking about these fears, are you?
+b: صب کن ببینم... تو که "ممنون" رو تکرار نمی‌کنی که فقط نخوای درباره این ترس ها صحبت کنی؟
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"annoyed", body:"chin" });
 ```
 
-h: Well, stuff's complicated, and I don't always have answers ready.
+h: خب، قضیه پیچیده‌ایه، و من همیشه جوابارو حاضر و آماده ندارم.
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
-h: It's not like life gives you a list of 3 pre-made dialogue responses.
+h: اینجوری نیست که زندگی بهت یه لیست سه تایی از دیالوگ های آماده بده.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
-h: But for now, I can at least say thanks.
+h: ولی فعلا حداقل میتونم بگم، ممنون.
 
-b: Well, thank you too, for listening to me patiently.
+b: خب، منم می‌خوام بگم ممنون، ممنون که صبورانه به حرفام گوش میدی.
 
 `bb({ eyes:"closed" });`
 
-b: You small hairless flesh-mammal.
+b: آخیی تو سگ کوچولو کی بودی؟
 
 (#act4_something_else)
 
 # act4_thanks_3
 
-h: Even if your yapping scares me, you're simply trying to protect my {{_.thanks_for}}.
+h: با اینکه ورور کردن تو منو می‌ترسونه، تو فقط می‌خوای از  {{_.thanks_for}} من محافظت کنی.
 
 `bb({ eyes:"smile_r" });`
 
-b: Okay, if you keep flattering me like this, the internet's gonna get some weird ideas about us.
+b: باشه، اگه هی بخوای اینجوری از من تعریف کنی، مردم فکرای بدی درباره ما می‌کنن.
 
 ```
 bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: C'mon, I'm just a vulnerable college-age kid and you're a big, scary wolf. What's the worst that cou--
+h: بی‌خیال، من فقط یه بچه دانشجو آسیب پذیرم و تو فقط یه گرگ بزرگ درنده. چه اتفاق بدی می‌تونه بی--
 
 `hong({ eyes:"normal", body:"point" });`
 
-h: Actually, do not answer that.
+h: اصلا جواب اون سوالو نده.
 
 (#act4_something_else)
 
@@ -852,33 +851,33 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"sad_d" });`
 
-b: I want to make sure you fulfil that deep, human need to belong...
+b: من فقط می‌خوام مطمئن بشم تو به اون نیاز درونی انسانی متعلق بودن برسی.
 
 `bb({ eyes:"sad_u" });`
 
-b: But I worry that if anyone ever knew us – the *real* us – we'd scare them all away.
+b: ولی من نگرانم که اگه یوقت یکی مارو - ما *واقعی* - رو بشناسه ما اونو می‌ترسونیم.
 
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: من نمدونم، دیگه من به اندازه کافی بریدم و دوختم. تو نظرت چیه انسان؟
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: دوباره نوبت توعه انسان، نظرت چیه؟
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: نظری نداری انسان؟
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[I agree: let's work on our social life.](#act4_alone_skills)
+[من موافقم: بیا روی زندگی اجتماعی‌مون کار کنیم.](#act4_alone_skills)
 
-[I think people like us. Let's find out?](#act4_alone_experiment)
+[به نظر من مردم از ما خوششون میاد، می‌خوای ببینیم؟](#act4_alone_experiment)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "social belonging";`
+[ممنون.](#act4_thanks) `_.thanks_for = "تعلق اجتماعی";`
 
 # act4_alone_skills
 
@@ -956,7 +955,7 @@ b: We'll kiss so much butt, it'll look like we're wearing brown lipstick!
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
-hong( body:"chin" });
+hong({ body:"chin" });
 ```
 
 h: Nah, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
@@ -966,8 +965,8 @@ h: Nah, you're right. "Social skills" can't be just about pleasing others, it's 
 h: We can't invite others into our home, if we have no walls to hold up our home.
 
 ```
-hong( eyes:"angry", mouth:"narrow" });
-bb( eyes:"annoyed", mouth:"smile" });
+hong({ eyes:"angry", mouth:"narrow" });
+bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
 h: Also... re: that lipstick mental image... *ew??*
