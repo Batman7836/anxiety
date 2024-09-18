@@ -886,42 +886,42 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
+h: ما می‌تونیم مهارت هایی مثل سوال پرسیدن، گوش‌دادن و همدلی کردن، باز و آسیب پذیر بودن رو تمرین کنیم؟
 
 `hong({ eyes:"normal_l" });`
 
-h: Or make better social habits, like scheduling time with friends or regularly going to meetups?
+h: یا می‌تونیم روی عادت های اجتماعی‌مون کار کنیم و اونا رو بهتر کنیم، مثلا می‌تونیم زمان مشخصی رو برای وقت گذروندن و رفتن به دورهمی با دوستامون تعیین کنیم؟
 
 `hong({ body:"one_up" });`
 
-h: Could also learn to get more comfortable with rejection.
+h: و می‌تونیم سعی کنیم با جواب رد شنیدن راحت‌تر برخورد کنیم.
 
 `hong({ eyes:"normal" });`
 
-h: Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
+h: یا می‌تونیم یادبگیریم که چه مواقعی مردم به ما جواب رد *نمیدن* و فقط قیافه عبوسی دارن.
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: That's a lot of options. But, about "learning social skills"...
+b: خیلی گزینه های مختلفی هست، ولی اگه بخوایم درباره مهارت های اجتماعی صحبت کنیم...
 
-[Isn't that *manipulative?*](#act4_alone_skills_manipulative)
+[بنظرت *گول زننده* نیست؟](#act4_alone_skills_manipulative)
 
-[Won't that make us *easier to manipulate?*](#act4_alone_skills_manipulated)
+[بنظرت باعث نمیشه ما *راحت‌تر گول بخوریم؟*](#act4_alone_skills_manipulated)
 
-[What if we still fail?](#act4_alone_skills_fail)
+[اگه بازم موفق نشیم چی؟](#act4_alone_skills_fail)
 
 # act4_alone_skills_manipulative
 
 `bb({ eyes:"suspect" });`
 
-b: Aren't serial killers who can read their victims' emotions great at "empathy"?
+b: اون قاتل های سریالی که می‌تونن احساسات قربانی‌هاشون رو بخونن هم "همدلی" بلد نیستن؟
 
 `bb({ eyes:"annoyed" });`
 
-b: Didn't Charles Manson win friends and influence people?
+b: چارلز منسون(قاتل و رهبر فرقه خانواده منسون) نبود که دوستای زیادی داشت و روی خیلی‌ها تاثیر گذاشت؟
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
