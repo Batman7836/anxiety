@@ -925,21 +925,21 @@ b: چارلز منسون(قاتل و رهبر فرقه خانواده منسون
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
-h: No, you're right.
+h: نه، حق با توعه.
 
-h: "Social skills" mean nothing if we don't genuinely care *for* people.
+h: "مهارت های اجتماعی" به هیچ دردی نمیخورن وقتی ما *واقعا* به دیگران اهمیت ندیم.
 
 `hong({ body:"normal" });`
 
-h: Basically, just don't be a ^dick^.
+h: خلاصه، آدم ^کیری^ نباش.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: That's a motivational poster caption right there.
+b: این میتونه یه پوستر انگیزشی باشه.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
-h: “Don't Be A ^Dick^™”
+h: "^کیری^ نباش."
 
 (#act4_something_else)
 
@@ -947,29 +947,29 @@ h: “Don't Be A ^Dick^™”
 
 `bb({ eyes:"angry" })`
 
-b: We'll become a Welcome doormat, saying Please and Thank You as people wipe their feet on us!
+b: خودمونو تبدیل می‌کنیم به یه پادری "خوش آمدید"، هی میگیم "لطفا" و "ممنون" وقتی که مردم پاهاشون رو با ما تمیز می‌کنن.
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
-b: We'll kiss so much butt, it'll look like we're wearing brown lipstick!
+b: انقد پاچه خواری مردم رو می‌کنیم که تیکه های پارچه لای دندون هامون گیر کنه.
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: Nah, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
+h: نه، تو راست میگی. مهرات های اجتماعی فقط شامل خوشحال کردن دیگران نیست، ما باید *حریم شخصی* خودمون رو هم مشخص کنیم.
 
 `hong( body:"one_up" });`
 
-h: We can't invite others into our home, if we have no walls to hold up our home.
+h: مل نمیتونیم بقیه رو به خونه خودمون دعوت کنیم اگه خونمون دیوار نداشته باشه.
 
 ```
 hong({ eyes:"angry", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Also... re: that lipstick mental image... *ew??*
+h: و اینکه منظورت چیه تیکه های پارچه لای دندونهامون گیر کنن؟
 
 (#act4_something_else)
 
@@ -977,22 +977,22 @@ h: Also... re: that lipstick mental image... *ew??*
 
 `bb({ eyes:"annoyed" });`
 
-h: We might fail. Actually, we *will* fail.
+h: شاید موفق نشیم. در واقع، موفق *نمیشیم*.
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"surprise", body:"shrug" });
 ```
 
-h: And that's fine! Failing is how anyone learns anything new at first!
+h: و این چیز بدی نیست! شکست مقدمه پیروزیه!
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: So let's fail forward together, yeah?
+h: پس بیا با هم شکست بخوریم، نظرته؟
 
 `bb({ eyes:"normal_r" });`
 
-b: Sure, I guess... worst-case scenario, we can just skip town and get a new identity.
+b: باشه، گمونم... تو بدترین حالت ممکن
 
 `bb({ eyes:"normal" });`
 
